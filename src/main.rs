@@ -280,7 +280,7 @@ fn main() {
     bevy_mod_debugdump::print_schedule(&mut app);
 
     app.run();
-    
+
     println!("{}", test);
 }
 

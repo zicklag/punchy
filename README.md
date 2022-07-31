@@ -1,5 +1,7 @@
 # Fish Fight: Punchy
 
+Testing GitHub merge tools.
+
 [![Build Status](https://img.shields.io/github/workflow/status/fishfight/punchy/CI?logo=github&labelColor=1e1c24&color=216e9b)](https://github.com/fishfight/punchy/actions)
 [![License](https://img.shields.io/badge/License-MIT%20or%20Apache%202-green.svg?label=license&labelColor=1e1c24&color=34925e)](./LICENSE.md)
 [![Discord](https://img.shields.io/badge/chat-on%20discord-green.svg?logo=discord&logoColor=fff&labelColor=1e1c24&color=8d5b3f)](https://discord.gg/4smxjcheE5)

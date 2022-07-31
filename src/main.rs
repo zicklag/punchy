@@ -248,8 +248,6 @@ fn main() {
         )
         .add_system_to_stage(CoreStage::Last, despawn_entities);
 
-    let test = 6;
-
     // Add debug plugins
     #[cfg(feature = "debug")]
     app.add_plugin(RapierDebugRenderPlugin::default())

@@ -138,7 +138,6 @@ impl Default for PhysicsBundle {
 pub struct ArrivedEvent(Entity);
 
 fn main() {
-    let test = 3;
     #[cfg(not(target_arch = "wasm32"))]
     let engine_config = {
         use structopt::StructOpt;

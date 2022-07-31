@@ -247,6 +247,8 @@ fn main() {
         )
         .add_system_to_stage(CoreStage::Last, despawn_entities);
 
+    let test = 6;
+    
     // Add debug plugins
     #[cfg(feature = "debug")]
     app.add_plugin(RapierDebugRenderPlugin::default())
@@ -260,6 +262,8 @@ fn main() {
         .register_inspectable::<attack::Attack>()
         .register_inspectable::<YSort>()
         .register_inspectable::<Facing>();
+    
+    println!("{}", test);
 
     // Register assets and loaders
     assets::register(&mut app);
